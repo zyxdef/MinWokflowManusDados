@@ -1,0 +1,23 @@
+---
+title: '*Workflow* Mínimo para Manuseio de Dados em R'
+author: "Marcelo Ventura Freire (EACH/USP)"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+
+
+# *Workflow* Mínimo para Manuseio de Dados em R
+
+
+
+## O que veremos
+
+*********** AQUI !!!!  ***********
+
+
