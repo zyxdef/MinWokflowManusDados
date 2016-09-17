@@ -21,6 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 1. Etapas de uma Análise de Dados
 1. Uma Proposta de *Workflow*
 1. Etapas Abordadas neste Curso
+1. Implementando o *SEU* Projeto
 
 
 
@@ -141,4 +142,276 @@ knitr::opts_chunk$set(echo = FALSE)
     - Programa para a Importação
     - Documentação do Conjunto de Dados
     - Programa para a Crítica
+
+
+
+
+
+# Implementando o *SEU* Projeto
+
+
+## Implementando o *SEU* Projeto
+
+- Projeto no `R Studio`
+- Programa de Importação
+- Documentação do Conjunto de Dados
+- Programa de Crítica
+
+
+
+
+
+# Projeto no `R Studio`
+
+
+
+## Projeto no `R Studio`
+
+Ok, Agora é a hora de *Você* começar a usar o *seu* conjunto de dados.
+
+Vamos começar criando um projeto novo no `R Studio`.
+
+
+
+## Projeto no `R Studio`
+
+Abra o `R Studio` e clique no Botão `Project: (None)`.
+
+![](proj.1.jpeg)
+
+
+
+## Projeto no `R Studio`
+
+Clique em `New Project`.
+
+![](proj.2.jpeg)
+
+
+
+## Projeto no `R Studio`
+
+Clique em `New Directory`.
+
+![](proj.3.jpeg)
+
+
+
+## Projeto no `R Studio`
+
+Clique em `Empty Project`.
+
+![](proj.4.jpeg)
+
+
+
+## Projeto no `R Studio`
+
+1. Digite em `Directory Name` o nome da pasta a ser criada .
+1. `Browse...` serve para mudar onde a pasta será criada.
+1. **IMPORTANTE**: habilite a opção `Create a git repository`.
+
+![](proj.5.jpeg)
+
+
+
+## Projeto no `R Studio`
+
+Note:
+
+![](proj.6.jpeg)
+
+
+
+## Projeto no `R Studio`
+
+Note:
+
+1. o nome do projeto acima do painel superior direito;
+1. o nome da pasta na Aba `Console` no painel inferior esquerdo;
+1. o conteúdo da pasta (com um arquivo `.Rproj`) na Aba `Files` no painel 
+inferior direito; e
+1. que existe uma Aba `Git` no painel superior direito.
+
+
+
+## Projeto no `R Studio`
+
+Clique no Botão `New Folder` dentro da Aba `Files`.
+
+![](proj.7.jpeg)
+
+
+
+## Projeto no `R Studio`
+
+Digite `originais` como nome da nova pasta que você vai criar.
+
+![](proj.8.jpeg)
+
+
+
+## Projeto no `R Studio`
+
+Copie agora os arquivos de dados originais para dentro da pasta `originais` que 
+você acabou de criar.
+
+Não continue antes de realizar esta etapa!
+
+![](proj.9.jpeg)
+
+
+
+## Projeto no `R Studio`
+
+Clique na Aba `Git` para ver o sistema de controle de versão.
+
+![](proj.10.jpeg)
+
+
+
+## Projeto no `R Studio`
+
+Clique no Botão `Commit` para abrir a janela do sistema de controle de versão
+
+![](proj.11.jpeg)
+
+
+
+## Projeto no `R Studio`
+
+Note na janela superior esquerda.
+
+![](proj.12.jpeg)
+
+
+
+## O Sistema de Controle de Versão
+
+Note que os nomes dos arquivos que aparecem na janela superior direita são 
+precedidos por duas interrogação em amarelo na Coluna `Status`.
+
+Isso significa que o sistema de controle de versão não sabe o que você quer 
+fazer com esses arquivos.
+
+Você pode:
+
+1. monitorar e salvar as mudanças feitas no arquivo com a opção `Stage`;
+1. descartar todas as mudanças no arquivo e recuperar a versão anterior com a 
+opção `Revert`; e
+1. escolher nunca monitorar as modificações do arquivo com a opção `Ignore`
+
+
+
+## O Sistema de Controle de Versão
+
+Selecione a caixa na Coluna `Staged` do primeiro item e note que as `?` em 
+amarelo da Coluna `Status` mudaram para um único `A` único em verde.
+
+|                    |                   |
+|:------------------:+:-----------------:|
+| ![](proj.13.jpeg)  | ![](proj.14.jpeg) |
+
+Isso que dizer que o sistema de controle de versão vai incluir esse arquivo na 
+lista de arquivos a serem monitorados.
+
+
+
+## O Sistema de Controle de Versão
+
+Selecione a caixa na Coluna `Staged` de todos os outros itens e note que as `?` 
+em amarelo da Coluna `Status` mudaram para um único `A` único em verde.
+
+|                    |                   |
+|:------------------:+:-----------------:|
+| ![](proj.14.jpeg)  | ![](proj.15.jpeg) |
+
+Isso que dizer que o sistema de controle de versão vai incluir todos esse 
+arquivo na lista de arquivos a serem monitorados.
+
+
+
+## O Sistema de Controle de Versão
+
+Digite `commit inicial` na caixa de texto na Janela `Commit message` e clique no 
+Botão `Commit` para registrar a primeira versão desses arquivos.
+
+![](proj.16.jpeg)
+
+
+
+## O Sistema de Controle de Versão
+
+Se apareceu uma janela como esta, então tudo correu bem.
+
+Clique no Botão `Close`
+
+![](proj.17.jpeg)
+
+
+
+## O Sistema de Controle de Versão
+
+Agora, você deve estar vendo a janela do sistema de controle de versão sem 
+nenhum item na lista da janela superior esquerda.
+
+![](proj.18.jpeg)
+
+Isso significa que não há alterações a serem nem salvas, nem descartadas e nem 
+revertidas.
+
+
+
+## O Sistema de Controle de Versão
+
+Na próxima vez que você for registrar as alterações que você fizer, cada 
+arquivo será comparado com a última versão salva e as modificações encontradas 
+em cada arquivo serão armazenadas no repositório que foi criado.
+
+Assim, o seu projeto vai sendo salvo a cada *commit*, de modo que será possível 
+rastrear as modificações feitas ao longo do projeto e até mesmo reverter o 
+projeto para qualquer etapa salva.
+
+Veremos mais sobre isso ao longo do curso.
+
+
+
+
+
+# Voltando um pouco...
+
+Volte para a apresentação  
+[Tratamento e Manuseio de Dados com R](tratamento.dados.R.html #7)
+
+
+
+
+
+# Programa de Importação {#importacao}
+
+
+
+## Programa de Importação
+
+
+
+
+
+# Documentação do Conjunto de Dados {#documentacao}
+
+
+
+## Documentação do Conjunto de Dados
+
+
+
+
+
+# Programa de Crítica {#critica}
+
+
+
+## Programa de Crítica
+
+
 
