@@ -1,5 +1,5 @@
 ---
-title: 'Um *Workflow* Mínimo para Manuseio de Dados em R'
+title: 'Uma Proposta de *Workflow* Mínimo para Manuseio de Dados em R'
 author: "Marcelo Ventura Freire (EACH/USP)"
 output: ioslides_presentation
 ---
@@ -12,16 +12,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-# Um *Workflow* Mínimo para Manuseio de Dados em R
+# Uma Proposta de *Workflow* Mínimo para Manuseio de Dados em R
 
 
 
 ## O que veremos
 
 1. Etapas de uma Análise de Dados
-2. O que Você *Precisa* Fazer
-3. O que Você *Deveria* Fazer
-4. Uma Proposta de *Workflow*
+1. Uma Proposta de *Workflow*
+1. Etapas Abordadas neste Curso
 
 
 
@@ -88,19 +87,58 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Uma Proposta de *Workflow*
 
 1. Preparação do ambiente de análise de dados
+1. Preparação dos Dados
+1. Análise dos Dados + Relatório da Análise
+
+
+
+## Uma Proposta de *Workflow*
+
+1. Preparação do ambiente de análise de dados
     1. Crie uma pasta nova para o projeto
         - subpasta para os arquivos de dados originais
     1. Crie um projeto (`.Rproj`) no `R Studio`
         - use o Sistema de Controle de Versão `Git`
+1. Preparação dos Dados
+1. Análise dos Dados + Relatório da Análise
+
+
+
+## Uma Proposta de *Workflow*
+
+1. Preparação do ambiente de análise de dados
 1. Preparação dos Dados
     1. Crie um programa `.R` para a Importação
         - Crie um arquivo `.Rdata` com os dados importados
     1. Crie um documento `.Rmd` para a Documentação do Conjunto de Dados
     1. Crie um programa `.R` para a Crítica
 1. Análise dos Dados + Relatório da Análise
+
+
+
+## Uma Proposta de *Workflow*
+
+1. Preparação do ambiente de análise de dados
+1. Preparação dos Dados
+1. Análise dos Dados + Relatório da Análise
     1. Crie um documento `.Rmd` para a Análise Descritiva/Exploratória
     1. Crie um documento `.Rmd` para a Análise Inferencial/Modelagem
 
-********
 
-******* AQUI!!!!  **************
+
+
+
+# Etapas Abordadas neste Curso
+
+
+
+## Etapas Abordadas neste Curso
+
+1. Preparação do ambiente de análise de dados
+    - Estrutura de pastas para o projeto
+    - Projeto no `R Studio` com controle de versão
+1. Preparação dos Dados
+    - Programa para a Importação
+    - Documentação do Conjunto de Dados
+    - Programa para a Crítica
+
