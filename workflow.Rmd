@@ -1,5 +1,5 @@
 ---
-title: '*Workflow* Mínimo para Manuseio de Dados em R'
+title: 'Um *Workflow* Mínimo para Manuseio de Dados em R'
 author: "Marcelo Ventura Freire (EACH/USP)"
 output: ioslides_presentation
 ---
@@ -12,12 +12,95 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-# *Workflow* Mínimo para Manuseio de Dados em R
+# Um *Workflow* Mínimo para Manuseio de Dados em R
 
 
 
 ## O que veremos
 
-*********** AQUI !!!!  ***********
+1. Etapas de uma Análise de Dados
+2. O que Você *Precisa* Fazer
+3. O que Você *Deveria* Fazer
+4. Uma Proposta de *Workflow*
 
 
+
+
+
+# Etapas de uma Análise de Dados
+
+
+
+## Etapas de uma Análise de Dados
+
+1. Coleta de Dados
+1. Preparação dos Dados
+1. Análise dos Dados
+1. Comunicação dos Achados
+
+
+
+## Etapas de uma Análise de Dados
+
+### Preparação dos Dados
+
+- Repita quantas vezes precisar:
+1. Importação dos Dados
+1. Crítica dos Dados
+    - Análise Descritiva
+    - Visualização dos Dados
+1. Se Encontrou Problemas:
+    - Verificação dos Dados
+        - Listagem de Valores a Verificar
+    - Repetir o Ciclo
+
+
+
+## Etapas de uma Análise de Dados
+
+### Análise dos Dados
+
+- Repita quantas vezes precisar:
+1. Visualização dos Dados
+1. Análise Descritiva/Análise Exploratória
+1. Análise Inferencial/Modelagem Formal
+1. Se o Resultado da Análise for insatisfatório:
+    - Transformação dos Dados
+    - Repetir o Ciclo
+
+
+
+## Etapas de uma Análise de Dados
+
+### Comunicação dos Achados
+
+1. Representação Visual dos Achados
+1. Relato Textual e Interpretação dos Achados
+
+
+
+
+
+# Uma Proposta de *Workflow*
+
+
+
+## Uma Proposta de *Workflow*
+
+1. Preparação do ambiente de análise de dados
+    1. Crie uma pasta nova para o projeto
+        - subpasta para os arquivos de dados originais
+    1. Crie um projeto (`.Rproj`) no `R Studio`
+        - use o Sistema de Controle de Versão `Git`
+1. Preparação dos Dados
+    1. Crie um programa `.R` para a Importação
+        - Crie um arquivo `.Rdata` com os dados importados
+    1. Crie um documento `.Rmd` para a Documentação do Conjunto de Dados
+    1. Crie um programa `.R` para a Crítica
+1. Análise dos Dados + Relatório da Análise
+    1. Crie um documento `.Rmd` para a Análise Descritiva/Exploratória
+    1. Crie um documento `.Rmd` para a Análise Inferencial/Modelagem
+
+********
+
+******* AQUI!!!!  **************
