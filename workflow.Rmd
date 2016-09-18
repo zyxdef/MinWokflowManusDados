@@ -1,7 +1,10 @@
 ---
 title: 'Uma Proposta de *Workflow* Mínimo para Manuseio de Dados em R'
 author: "Marcelo Ventura Freire (EACH/USP)"
-output: ioslides_presentation
+output: 
+    ioslides_presentation:
+        self_contained: true
+        smaller: true
 ---
 
 ```{r setup, include=FALSE}
@@ -18,16 +21,16 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## O que veremos
 
-1. Etapas de uma Análise de Dados
-1. Uma Proposta de *Workflow*
-1. Etapas Abordadas neste Curso
-1. Implementando o *SEU* Projeto
+1. [Etapas de uma Análise de Dados](#etapas)
+1. [Uma Proposta de *Workflow*](#proposta)
+1. [Etapas Abordadas neste Curso](#abordadas)
+1. [Implementando o *SEU* Projeto](#seuprojeto)
 
 
 
 
 
-# Etapas de uma Análise de Dados
+# Etapas de uma Análise de Dados {#etapas}
 
 
 
@@ -81,7 +84,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-# Uma Proposta de *Workflow*
+# Uma Proposta de *Workflow* {#proposta}
 
 
 
@@ -129,7 +132,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-# Etapas Abordadas neste Curso
+# Etapas Abordadas neste Curso {#abordadas}
 
 
 
@@ -147,21 +150,21 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-# Implementando o *SEU* Projeto
+# Implementando o *SEU* Projeto {#seuprojeto}
 
 
 ## Implementando o *SEU* Projeto
 
-- Projeto no `R Studio`
-- Programa de Importação
-- Documentação do Conjunto de Dados
-- Programa de Crítica
+- [Projeto no `R Studio`](#projeto-rstudio)
+- [Programa de Importação](#importacao)
+- [Documentação do Conjunto de Dados](#documentacao)
+- [Programa de Crítica](#critica)
 
 
 
 
 
-# Projeto no `R Studio`
+# Projeto no `R Studio` {#projeto-rstudio}
 
 
 
@@ -278,7 +281,7 @@ Clique no Botão `Commit` para abrir a janela do sistema de controle de versão
 
 
 
-## Projeto no `R Studio`
+## Sistema de Controle de Versão
 
 Note na janela superior esquerda.
 
@@ -286,7 +289,7 @@ Note na janela superior esquerda.
 
 
 
-## O Sistema de Controle de Versão
+## Sistema de Controle de Versão
 
 Note que os nomes dos arquivos que aparecem na janela superior direita são 
 precedidos por duas interrogação em amarelo na Coluna `Status`.
@@ -303,7 +306,7 @@ opção `Revert`; e
 
 
 
-## O Sistema de Controle de Versão
+## Sistema de Controle de Versão
 
 Selecione a caixa na Coluna `Staged` do primeiro item e note que as `?` em 
 amarelo da Coluna `Status` mudaram para um único `A` único em verde.
@@ -317,7 +320,7 @@ lista de arquivos a serem monitorados.
 
 
 
-## O Sistema de Controle de Versão
+## Sistema de Controle de Versão
 
 Selecione a caixa na Coluna `Staged` de todos os outros itens e note que as `?` 
 em amarelo da Coluna `Status` mudaram para um único `A` único em verde.
@@ -331,7 +334,7 @@ arquivo na lista de arquivos a serem monitorados.
 
 
 
-## O Sistema de Controle de Versão
+## Sistema de Controle de Versão
 
 Digite `commit inicial` na caixa de texto na Janela `Commit message` e clique no 
 Botão `Commit` para registrar a primeira versão desses arquivos.
@@ -340,7 +343,7 @@ Botão `Commit` para registrar a primeira versão desses arquivos.
 
 
 
-## O Sistema de Controle de Versão
+## Sistema de Controle de Versão
 
 Se apareceu uma janela como esta, então tudo correu bem.
 
@@ -350,7 +353,7 @@ Clique no Botão `Close`
 
 
 
-## O Sistema de Controle de Versão
+## Sistema de Controle de Versão
 
 Agora, você deve estar vendo a janela do sistema de controle de versão sem 
 nenhum item na lista da janela superior esquerda.
@@ -362,7 +365,7 @@ revertidas.
 
 
 
-## O Sistema de Controle de Versão
+## Sistema de Controle de Versão
 
 Na próxima vez que você for registrar as alterações que você fizer, cada 
 arquivo será comparado com a última versão salva e as modificações encontradas 
@@ -381,7 +384,7 @@ Veremos mais sobre isso ao longo do curso.
 # Voltando um pouco...
 
 Volte para a apresentação  
-[Tratamento e Manuseio de Dados com R](tratamento.dados.R.html #7)
+[Tratamento e Manuseio de Dados com R](tratamento.dado.R.html)
 
 
 
