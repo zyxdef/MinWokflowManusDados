@@ -5,6 +5,13 @@ output:
     ioslides_presentation:
         self_contained: true
         smaller: true
+        smart: true
+    # html_document:
+    #     toc: true
+    #     toc_float: true
+    #     toc_depth: 2
+    #     self_contained: true
+    #     smart: true
 ---
 
 ```{r setup, include=FALSE}
