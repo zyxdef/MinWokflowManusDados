@@ -28,16 +28,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## O que veremos
 
-1. [Etapas de uma Análise de Dados](#etapas)
-1. [Uma Proposta de *Workflow*](#proposta)
-1. [Etapas Abordadas neste Curso](#abordadas)
-1. [Implementando o *SEU* Projeto](#seuprojeto)
+1. [Etapas de uma Análise de Dados](#4)
+1. [Uma Proposta de *Workflow*](#9)
+1. [Implementando o *SEU* Projeto](#15)
 
 
 
 
 
-# Etapas de uma Análise de Dados {#etapas}
+# Etapas de uma Análise de Dados
 
 
 
@@ -91,7 +90,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-# Uma Proposta de *Workflow* {#proposta}
+# Uma Proposta de *Workflow*
 
 
 
@@ -137,12 +136,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-
-
-# Etapas Abordadas neste Curso {#abordadas}
-
-
-
 ## Etapas Abordadas neste Curso
 
 1. Preparação do ambiente de análise de dados
@@ -157,21 +150,21 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-# Implementando o *SEU* Projeto {#seuprojeto}
+# Implementando o *SEU* Projeto
 
 
 ## Implementando o *SEU* Projeto
 
-- [Projeto no `R Studio`](#projeto-rstudio)
-- [Programa de Importação](#importacao)
-- [Documentação do Conjunto de Dados](#documentacao)
-- [Programa de Crítica](#critica)
+- [Projeto no `R Studio`](#17)
+- [Programa de Importação](#40)
+- Documentação do Conjunto de Dados
+- Programa de Crítica
 
 
 
 
 
-# Projeto no `R Studio` {#projeto-rstudio}
+# Projeto no `R Studio`
 
 
 
@@ -397,7 +390,7 @@ Volte para a apresentação
 
 
 
-# Programa de Importação {#importacao}
+# Programa de Importação
 
 
 
@@ -407,7 +400,7 @@ Volte para a apresentação
 
 
 
-# Documentação do Conjunto de Dados {#documentacao}
+# Documentação do Conjunto de Dados
 
 
 
@@ -417,7 +410,7 @@ Volte para a apresentação
 
 
 
-# Programa de Crítica {#critica}
+# Programa de Crítica
 
 
 
