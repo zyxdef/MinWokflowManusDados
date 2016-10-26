@@ -378,7 +378,7 @@ Veremos mais sobre isso ao longo do curso.
 # Voltando um pouco...
 
 Volte para a apresentação  
-[Tratamento e Manuseio de Dados com R](tratamento.dado.R.html)
+[Tratamento e Manuseio de Dados com R](../tratamento.dado.R.html)
 
 
 
